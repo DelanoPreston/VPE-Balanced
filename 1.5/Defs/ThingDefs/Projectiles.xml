@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="BaseBullet">
+		<defName>VPE_Bolt</defName>
+		<label>bolt</label>
+		<description>A bolt launched by a staticlord</description>
+		<thingClass>VFECore.Abilities.AbilityProjectile</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
+			<texPath>Effects/Staticlord/Bolt</texPath>
+			<ticksPerFrame>3</ticksPerFrame>
+			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<drawerType>RealtimeOnly</drawerType>
+		<projectile>
+			<explosionRadius>3</explosionRadius>
+			<damageDef>EMP</damageDef>
+			<speed>50</speed>
+			<shadowSize>0</shadowSize>
+			<extraDamages>
+				<li>
+					<def>Flame</def>
+					<amount>15</amount>
+				</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+    <ThingDef ParentName="BaseBullet">
+        <defName>VPE_BallLightning</defName>
+        <label>ball lightning</label>
+        <thingClass>VanillaPsycastsExpanded.Staticlord.BallLightning</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+        <graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
+            <texPath>Effects/Staticlord/BallOfLightning</texPath>
+			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+			<ticksPerFrame>3</ticksPerFrame>
+			<drawSize>(3, 3)</drawSize>
+        </graphicData>
+		<projectile>
+			<speed>8</speed>
+			<soundAmbient>VPE_BallLightning_Sustainer</soundAmbient>
+			<shadowSize>0</shadowSize>
+			<explosionRadius>5</explosionRadius>
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+		</projectile>
+    </ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>VPE_FrostRay</defName>
+		<label>frost ray</label>
+		<thingClass>VanillaPsycastsExpanded.Projectile_FrostRay</thingClass>
+		<altitudeLayer>VisEffects</altitudeLayer>
+		<drawOffscreen>true</drawOffscreen>
+		<graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
+			<texPath>Effects/Frostshaper/Frostbeam</texPath>
+			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
+			<ticksPerFrame>3</ticksPerFrame>
+		</graphicData>
+		<projectile>
+			<speed>75</speed>
+			<damageDef>Cut</damageDef>
+			<damageAmountBase>3</damageAmountBase>
+		</projectile>
+		<comps>
+			<li Class="VanillaPsycastsExpanded.CompProperties_FleckEmitter">
+				<fleck>VPE_ColdGlowBehindProjectile</fleck>
+				<emissionInterval>1</emissionInterval>
+				<scale>2.3</scale>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

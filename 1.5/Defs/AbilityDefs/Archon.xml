@@ -186,7 +186,7 @@
 		<label>mind break</label>
 		<description>Using concentrated harmonic psychic noise, lobotomizes the target and turns them into a serving, restless thrall. Very much unappreciated by their former factions.</description>
 		<iconPath>Abilities/Archon/MindBreak</iconPath>
-		<abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+		<abilityClass>VFE-B.Abilities.Ability_MindBreak</abilityClass>
 		<targetingParameters>
 			<canTargetSelf>True</canTargetSelf>
 			<canTargetAnimals>False</canTargetAnimals>
