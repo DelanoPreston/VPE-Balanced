@@ -30,7 +30,7 @@
 		</li>
 	</modDependencies>
     <!-- <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath> -->
-    <packageId>dourjoseph.euphorium</packageId>
+    <packageId>dourjoseph.VPEBalanced</packageId>
 	<loadBefore>
 		<li>steve.betterquestrewards</li>
 	</loadBefore>

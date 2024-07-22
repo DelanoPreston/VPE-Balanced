@@ -186,7 +186,7 @@
 		<label>mind break</label>
 		<description>Using concentrated harmonic psychic noise, lobotomizes the target and turns them into a serving, restless thrall. Very much unappreciated by their former factions.</description>
 		<iconPath>Abilities/Archon/MindBreak</iconPath>
-		<abilityClass>VFE-B.Abilities.Ability_MindBreak</abilityClass>
+		<abilityClass>VFEB.Abilities.Ability_MindBreak</abilityClass>
 		<targetingParameters>
 			<canTargetSelf>True</canTargetSelf>
 			<canTargetAnimals>False</canTargetAnimals>
@@ -199,6 +199,9 @@
 		<fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
 		<castSound>PsychicShockLanceCast</castSound>
 		<showUndrafted>true</showUndrafted>
+		<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+			<hediff>VPEB_MindlessThrall</hediff>
+		</li>
 		<modExtensions>
 			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
 				<path>VPE_Archon</path>
@@ -212,7 +215,7 @@
 				</prerequisites>
 			</li>
 			<li Class="VanillaPsycastsExpanded.AbilityExtension_GiveTrait">
-				<trait>VPE_Thrall</trait>
+				<trait>VPEB_Thrall</trait>
 			</li>
 			<li Class="VanillaPsycastsExpanded.AbilityExtension_JoinFaction" />
 

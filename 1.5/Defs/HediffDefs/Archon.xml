@@ -5,7 +5,7 @@
 <!-- thralls -->
 <Defs>
   <HediffDef ParentName="PsycastHediffBase">
-    <defName>VPE-B_MindlessThrall</defName>
+    <defName>VPEB_MindlessThrall</defName>
     <label>mindless thrall</label>
     <description>This pawn has been dominated. Thralls are slow and mindless.</description>
     <hediffClass>Hediff_Thrall</hediffClass>

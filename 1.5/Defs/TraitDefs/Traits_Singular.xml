@@ -2,9 +2,9 @@
 <Defs>
 
   <TraitDef>
-    <defName>VPE_Thrall</defName>
+    <defName>VPEB_Thrall</defName>
     <commonality>0</commonality>
-    <disabledWorkTags>ManualSkilled, Social, Medical, Intellectual</disabledWorkTags>
+    <disabledWorkTags>AllWork</disabledWorkTags>
     <degreeDatas>
       <li>
         <label>thrall</label>
