@@ -11,7 +11,7 @@
     <rangeStatFactors>
       <PsychicSensitivity>1</PsychicSensitivity>
     </rangeStatFactors>
-    <radius>1.9</radius>
+    <radius>3</radius>
     <power>1</power>
     <castSound>VPE_Bolt_Cast</castSound>
     <targetMode>Pawn</targetMode>
@@ -24,7 +24,7 @@
         <path>VPE_Staticlord</path>
         <level>1</level>
         <order>1</order>
-        <psyfocusCost>0.02</psyfocusCost>
+        <psyfocusCost>0.05</psyfocusCost>
         <entropyGain>8</entropyGain>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Projectile">
@@ -39,7 +39,7 @@
     <description>Fires a living bolt of electricity at a target which can leak out onto nearby targets, the amount scaling with psychic sensitivity. Inflicts small burns and EMP damage.</description>
     <iconPath>Abilities/Staticlord/ChainBolt</iconPath>
     <abilityClass>VanillaPsycastsExpanded.Staticlord.Ability_ChainBolt</abilityClass>
-    <castTime>9000</castTime>
+    <castTime>60</castTime>
     <range>22.9</range>
     <power>3</power>
     <targetMode>Pawn</targetMode>
@@ -49,7 +49,7 @@
         <level>2</level>
         <order>2</order>
         <psyfocusCost>0.06</psyfocusCost>
-        <entropyGain>1</entropyGain>
+        <entropyGain>30</entropyGain>
         <prerequisites>
           <li>VPE_Bolt</li>
         </prerequisites>
@@ -66,7 +66,7 @@
     <iconPath>Abilities/Staticlord/Thunderbolt</iconPath>
     <abilityClass>VanillaPsycastsExpanded.Staticlord.Ability_Thunderbolt</abilityClass>
     <castTime>3</castTime>
-    <range>22.9</range>
+    <range>30</range>
     <radius>6</radius>
     <maxRadius>12</maxRadius>
     <radiusStatFactors>
@@ -79,8 +79,8 @@
         <path>VPE_Staticlord</path>
         <level>2</level>
         <order>1</order>
-        <psyfocusCost>0.02</psyfocusCost>
-        <entropyGain>12</entropyGain>
+        <psyfocusCost>0.04</psyfocusCost>
+        <entropyGain>20</entropyGain>
         <prerequisites>
           <li>VPE_ChainBolt</li>
         </prerequisites>
@@ -167,7 +167,7 @@
     <targetMode>Location</targetMode>
     <castTime>30</castTime>
     <range>30.9</range>
-    <radius>5</radius>
+    <radius>7</radius>
     <power>5</power>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
@@ -191,8 +191,8 @@
     <description>The caster dumps a massive amount of voltage into the surrounding air, causing an EMP blast in a huge radius which is otherwise harmless.</description>
     <iconPath>Abilities/Staticlord/StaticPulse</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Explode</abilityClass>
-    <castTime>6</castTime>
-    <radius>50.9</radius>
+    <castTime>30</castTime>
+    <radius>30</radius>
     <targetMode>Self</targetMode>
     <castSound>VPE_StaticPulse_Cast</castSound>
     <targetFlecks>
@@ -211,7 +211,7 @@
         </prerequisites>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Explosion">
-        <explosionRadius>50.9</explosionRadius>
+        <explosionRadius>30</explosionRadius>
         <onCaster>true</onCaster>
         <explosionDamageDef>EMP</explosionDamageDef>
       </li>
@@ -224,8 +224,8 @@
     <iconPath>Abilities/Staticlord/Vortex</iconPath>
     <abilityClass>VFECore.Abilities.Ability_SpawnBuilding</abilityClass>
     <castTime>30</castTime>
-    <range>18.9</range>
-    <radius>22.9</radius>
+    <range>35</range>
+    <radius>14</radius>
     <durationTime>2500</durationTime>
     <targetMode>Location</targetMode>
     <modExtensions>
@@ -273,7 +273,7 @@
     <iconPath>Abilities/Staticlord/Flashstorm</iconPath>
     <abilityClass>VanillaPsycastsExpanded.Staticlord.Ability_Flashstorm</abilityClass>
     <castTime>60</castTime>
-    <range>20</range>
+    <range>33</range>
     <radius>14</radius>
     <durationTime>6000</durationTime>
     <targetMode>Location</targetMode>

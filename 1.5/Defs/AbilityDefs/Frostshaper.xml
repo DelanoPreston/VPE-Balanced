@@ -103,7 +103,7 @@
     <label>frost ray</label>
     <description>Push forth a concentrated stream of psychic entropy for a few seconds, rapidly inducing cuts and hypothermia. The duration scales with the caster’s psychic sensitivity.</description>
     <iconPath>Abilities/Frostshaper/FrostRay</iconPath>
-    <durationTime>240</durationTime>
+    <durationTime>160</durationTime>
     <durationTimeStatFactors>
       <PsychicSensitivity>1</PsychicSensitivity>
     </durationTimeStatFactors>

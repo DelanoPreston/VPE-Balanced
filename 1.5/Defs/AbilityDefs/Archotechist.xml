@@ -130,7 +130,7 @@
     <description>Induce a berserker psychosis in the target's mind, causing them to attack anyone nearby. They regain rationality after 15 seconds, depending on their psychic sensitivity.</description>
     <iconPath>Abilities/Archotechist/Berserk</iconPath>
     <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
-    <castTime>15</castTime>
+    <castTime>180</castTime>
     <durationTime>900</durationTime>
     <range>20</range>
     <targetingParameters>
@@ -200,7 +200,7 @@
     <description>Generate an overwhelming rush of undirected rage in everyone near the target point. Considered an overt act of aggression and lasts several seconds.</description>
     <iconPath>Abilities/Archotechist/BerserkPulse</iconPath>
     <abilityClass>VanillaPsycastsExpanded.Ability_BerserkPulse</abilityClass>
-    <castTime>60</castTime>
+    <castTime>300</castTime>
     <durationTime>600</durationTime>
     <range>15</range>
     <radius>2.9</radius>
@@ -244,7 +244,7 @@
     <castSound>VPE_PsychicDrone_Cast</castSound>
     <durationTime>1800</durationTime>
     <castTime>60</castTime>
-    <radius>25.9</radius>
+    <radius>18</radius>
     <modExtensions>
       <li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
         <path>VPE_Archotechist</path>

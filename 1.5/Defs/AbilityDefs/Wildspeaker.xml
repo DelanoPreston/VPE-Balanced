@@ -21,7 +21,7 @@
         <path>VPE_Wildspeaker</path>
         <level>1</level>
         <order>1</order>
-        <psyfocusCost>0.01</psyfocusCost>
+        <psyfocusCost>0.04</psyfocusCost>
         <entropyGain>10</entropyGain>
       </li>
       <li Class="VFECore.Abilities.AbilityExtension_Spawn">

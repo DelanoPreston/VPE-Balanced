@@ -227,7 +227,7 @@
     <abilityClass>VFECore.Abilities.Ability_Skyfallers</abilityClass>
     <castTime>180</castTime>
     <range>36.9</range>
-    <radius>9.9</radius>
+    <radius>16</radius>
     <power>5</power>
     <powerStatFactors>
       <PsychicSensitivity>1</PsychicSensitivity>
@@ -259,8 +259,8 @@
     <abilityClass>VFECore.Abilities.Ability_OrbitalStrike</abilityClass>
     <castTime>300</castTime>
     <durationTime>180</durationTime>
-    <range>45.9</range>
-    <radius>15</radius>
+    <range>24</range>
+    <radius>10</radius>
     <targetMode>Location</targetMode>
     <castSound>VPE_FireBeam_Cast</castSound>
     <modExtensions>
