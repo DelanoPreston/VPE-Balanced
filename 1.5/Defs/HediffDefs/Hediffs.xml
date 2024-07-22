@@ -7,6 +7,7 @@
     <description>This pawn has been dominated and is now slow and mindless.</description>
     <isBad>false</isBad>
     <initialSeverity>1</initialSeverity>
+    <!-- <naturallyHealed>false</naturallyHealed> -->
     <stages>
 			<li>
 				<naturalHealingFactor>0.8</naturalHealingFactor>
@@ -18,5 +19,71 @@
 				</capMods>
 			</li>
 		</stages>
+  </HediffDef>
+  <HediffDef ParentName="PsycastHediffBase">
+    <defName>VPEB_BornYesterday</defName>
+    <label>born yesterday</label>
+    <description>{PAWN_nameDef}'s mind is a clean slate. [PAWN_pronoun] will learn more quickly for a while Though {PAWN_nameDef} is getting used to {PAWN_pronoun} body again.</description>
+    <isBad>false</isBad>
+    <initialSeverity>0.001</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <comps>
+        <li Class="HediffCompProperties_SeverityPerDay">
+            <severityPerDay>0.00556</severityPerDay>
+        </li>
+    </comps>
+    <stages>
+        <li>
+            <minSeverity>0</minSeverity>
+            <statFactors>
+                <ResearchSpeed>0.25</ResearchSpeed>
+                <GlobalLearningFactor>2</GlobalLearningFactor>
+            </statFactors>
+            <capMods>
+                <li>
+                    <capacity>Talking</capacity>
+                    <setMax>0.25</setMax>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <setMax>0.25</setMax>
+                </li>
+            </capMods>
+        </li>
+        <li>
+            <minSeverity>0.3</minSeverity>
+            <statFactors>
+                <ResearchSpeed>0.5</ResearchSpeed>
+                <GlobalLearningFactor>1.6</GlobalLearningFactor>
+            </statFactors>
+            <capMods>
+                <li>
+                    <capacity>Talking</capacity>
+                    <setMax>0.5</setMax>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <setMax>0.5</setMax>
+                </li>
+            </capMods>
+        </li>
+        <li>
+            <minSeverity>0.6</minSeverity>
+            <statFactors>
+                <ResearchSpeed>0.75</ResearchSpeed>
+                <GlobalLearningFactor>1.25</GlobalLearningFactor>
+            </statFactors>
+            <capMods>
+                <li>
+                    <capacity>Talking</capacity>
+                    <setMax>0.75</setMax>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <setMax>0.75</setMax>
+                </li>
+            </capMods>
+        </li>
+    </stages>
   </HediffDef>
 </Defs>

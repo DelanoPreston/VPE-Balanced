@@ -262,11 +262,11 @@
   <VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
     <defName>VPE_RegrowLimbs</defName>
     <label>regrow limbs</label>
-    <description>Induces a psychic, regenerative coma in the target that lasts for a full day. The psychic energy assists the target by slowly regrowing any missing limbs.</description>
+    <description>Induces a psychic, regenerative coma in the target that lasts for 7 days. The psychic energy assists the target by slowly regrowing any missing limbs. The resulting coma for the caster and the effect lasts up to five days.</description>
     <iconPath>Abilities/Protector/RegrowLimbs</iconPath>
-    <abilityClass>VFECore.Abilities.Ability_Blank</abilityClass>
+    <abilityClass>VanillaPsycastsExpanded.Ability_PsychicComa</abilityClass>
     <castTime>120</castTime>
-    <durationTime>60000</durationTime>
+    <durationTime>420000</durationTime>
     <jobDef>VFEA_GotoTargetAndUseAbility</jobDef>
     <requireLineOfSight>false</requireLineOfSight>
     <targetMode>Pawn</targetMode>

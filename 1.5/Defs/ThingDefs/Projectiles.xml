@@ -60,9 +60,9 @@
 			<ticksPerFrame>3</ticksPerFrame>
 		</graphicData>
 		<projectile>
-			<speed>75</speed>
+			<speed>25</speed>
 			<damageDef>Cut</damageDef>
-			<damageAmountBase>3</damageAmountBase>
+			<damageAmountBase>4</damageAmountBase>
 		</projectile>
 		<comps>
 			<li Class="VanillaPsycastsExpanded.CompProperties_FleckEmitter">
