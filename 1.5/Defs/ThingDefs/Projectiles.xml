@@ -27,27 +27,6 @@
 			</extraDamages>
 		</projectile>
 	</ThingDef>
-    <ThingDef ParentName="BaseBullet">
-        <defName>VPE_BallLightning</defName>
-        <label>ball lightning</label>
-        <thingClass>VanillaPsycastsExpanded.Staticlord.BallLightning</thingClass>
-		<drawOffscreen>true</drawOffscreen>
-        <graphicData Class="VanillaPsycastsExpanded.Graphics.GraphicData_Animated">
-            <texPath>Effects/Staticlord/BallOfLightning</texPath>
-			<graphicClass>VanillaPsycastsExpanded.Graphics.Graphic_Animated</graphicClass>
-            <shaderType>TransparentPostLight</shaderType>
-			<ticksPerFrame>3</ticksPerFrame>
-			<drawSize>(3, 3)</drawSize>
-        </graphicData>
-		<projectile>
-			<speed>8</speed>
-			<soundAmbient>VPE_BallLightning_Sustainer</soundAmbient>
-			<shadowSize>0</shadowSize>
-			<explosionRadius>5</explosionRadius>
-			<damageDef>EMP</damageDef>
-			<damageAmountBase>15</damageAmountBase>
-		</projectile>
-    </ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>VPE_FrostRay</defName>
 		<label>frost ray</label>
@@ -60,9 +39,9 @@
 			<ticksPerFrame>3</ticksPerFrame>
 		</graphicData>
 		<projectile>
-			<speed>25</speed>
+			<speed>75</speed>
 			<damageDef>Cut</damageDef>
-			<damageAmountBase>4</damageAmountBase>
+			<damageAmountBase>2</damageAmountBase>
 		</projectile>
 		<comps>
 			<li Class="VanillaPsycastsExpanded.CompProperties_FleckEmitter">

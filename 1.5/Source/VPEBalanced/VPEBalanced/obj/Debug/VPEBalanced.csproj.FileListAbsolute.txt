@@ -1,8 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VPE-Balanced-tm\1.5\Assemblies\VPEBalanced.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VPE-Balanced-tm\1.5\Source\VPEBalanced\VPEBalanced\obj\Debug\VPEBalanced.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VPE-Balanced-tm\1.5\Source\VPEBalanced\VPEBalanced\obj\Debug\VPEBalanced.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VPE-Balanced-tm\1.5\Source\VPEBalanced\VPEBalanced\obj\Debug\VPEBalanced.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VPE-Balanced\1.5\Assemblies\VPEBalanced.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VPE-Balanced\1.5\Source\VPEBalanced\VPEBalanced\obj\Debug\VPEBalanced.csproj.AssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VPE-Balanced\1.5\Source\VPEBalanced\VPEBalanced\obj\Debug\VPEBalanced.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VPE-Balanced\1.5\Source\VPEBalanced\VPEBalanced\obj\Debug\VPEBalanced.dll
